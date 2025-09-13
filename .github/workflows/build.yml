@@ -40,5 +40,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/my-app # <-- replace my-app with your project name
-          token: ${{ secrets.GITHUB_TOKEN }}
+          folder: dist/github-live-action-one
